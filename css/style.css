@@ -1,8 +1,57 @@
-/**
- * Add your custom styles below
- * 
- * Remember: 
- * - Be organised, use comments and separate your styles into meaningful chunks
- *    for example: General styles, Navigation styles, Hero styles, Footer etc.
- * 
- */
+body {
+    font-family: sans-serif;
+    color: white;
+    width: 700px;
+    background-image: linear-gradient( to top,
+    #d7d2cc 40%,
+    #304352 80%);
+    line-height: 25pt;}
+
+    header {text-align: center;
+    margin-top: 200px;
+    margin-left:300px;
+    width: 700px;
+    border-bottom: solid 2px black;}
+
+.proyectos {
+margin-left: 300px;
+margin-top: 100px;
+width: 700px; 
+border-bottom: solid 2px black;
+text-align: center ;
+}
+
+.proyecto1 h3:first-child {
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color:white;
+    color: black;
+}
+    
+    .proyecto1 img {
+     border: 15px solid #030303;
+     border-radius: 10%;
+   }
+
+   .proyecto2 img {
+    border: 10px solid #030303;
+    border-radius: 5%;
+   }
+
+   .proyecto3 img {
+    border: 5px solid #030303;
+    border-radius: 5%;
+   }
+
+   .contacto {
+    background-color: black;
+    margin-top: 5px;
+    margin-left: 50px;
+    margin-right: 50px;
+    width: 1200px;
+    text-align: left;
+    line-height: 15pt;
+    font-style: italic;
+    padding: 10px;
+    
+}
